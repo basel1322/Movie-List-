@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Design.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+    
+</head>
+<body>
+      <h>My Favorite Movies</h>
+      <br><br>
+    <label for="Mname">Title</label>
+    <br>
+    <input type="text" id="Item-for-list"  placeholder="Movie Title">
+    <br><br>
+    <label for="Mrate">Rating</label><br>
+   <input type="text" id="rate-for-movie"  placeholder="Rate the movie from 0-10">
+<br><br><br>
+ <button type="submit" id="test" value="Submit">Add Movie</button>
+ <br>
+ <p id="inputtext"></p>
+ <br><br><br>
+   <div id= Movie-list>
+   <table id =main-list> 
+    <tr>
+      <th id="sort">
+        <p  class="fa fa-arrows-v" id="ratingbynumbericon" > Title:</p>
+      </th>
+      <th id="sort-by-numbers">
+     <p  class="fa fa-hand-o-up" id="ratingbynumbericon" > Rating:</p>
+      </th>
+      <th id="deletecat">
+        Delete/Edit
+        
+      </th>
+  
+    </tr>
+    
+   </table>
+</div>
+
+</body>
+<script src="./bundle.js"></script>
+
+
+
+</html>

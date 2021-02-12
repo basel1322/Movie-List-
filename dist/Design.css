@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+  }
+  div{
+    border-radius: red;
+  }
+  label{
+    width:0;
+  }
+  
+  input {
+    position: fixed;
+    border-radius: 0;
+    width: 35%;
+    padding: 2px;
+    font-size: 16px;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    table-layout: fixed;
+  }
+  td{
+    border: 1px solid #ddd;
+    padding: 1px;
+  }
+  h{
+    text-align: left;
+    color: #4CAF50 ;
+    font-size: 30px;
+  }
+  
+  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    font-style: italic;
+    color: white;
+  }
+  tr{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-size: 15px
+  }
+  
+  tr:nth-child(even){
+    background-color: #f2f2f2;
+  }
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  #test {
+    width: 35%;
+    padding: 5px;
+    background-color: #4CAF50;
+    color: white;
+    float: left;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border:none;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .tableinput{
+    width: 180.333333333px;
+    text-align: left;
+    box-sizing: border-box;
+   
+  }
+
+ 
+
+  .delete-item,.edit-item,.Save-item,.cancel-item{
+display:inline-block;
+  width: 50%;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  }
+  #ratingbynumbericon{
+    background-color: #4CAF50;
+    color:white;
+  }
+  
+  #ratingbynumbericon:hover, .delete-item:hover,.edit-item:hover,.Save-item:hover,.cancel-item:hover {
+    color:black;
+  }
+  
+ 
+  #ratingbynumbericon:visited , .delete-item:visited,.edit-item:visited,.Save-item:visited,.cancel-item:visited{
+    background-color: #ccc;
+  }
